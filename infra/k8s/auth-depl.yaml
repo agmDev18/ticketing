@@ -28,6 +28,7 @@ kind: Service
 metadata:
   name: auth-srv
 spec:
+  type: NodePort
   selector:
     app: auth
   ports:
